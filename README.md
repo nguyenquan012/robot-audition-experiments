@@ -1,5 +1,5 @@
 # robot-audition-experiments
-Conducting experiments for robot audition to localize sound sources and record data from robots and the sound environment.
+Conducting experiments for robot audition to localize sound sources and record data from robots and the sound environment (code in 2015).
 
 See one recorded video of the experiment related to the code from this link https://www.youtube.com/watch?v=DU2-v_EGCNU.
 
