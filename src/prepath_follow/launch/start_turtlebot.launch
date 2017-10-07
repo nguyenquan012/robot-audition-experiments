@@ -1,0 +1,17 @@
+<launch>
+<arg name="mynum" default="1" />
+<arg name="myprefix" default="turtlebot" />
+<arg name="robothostname" default="turtlebot-1" />
+<arg name="robotlogin" default="turtlebot"/>
+
+<machine name="$(arg myprefix)-$(arg mynum)" address="$(arg robothostname)" user="$(arg robotlogin)" env-loader="/opt/his/ros/env.sh" default="true"/>
+
+<include file="$(find turtlebot_path_follower)/launch/demo_path_follower.launch" >
+  <arg name="mynum" default="$(arg mynum)" />
+  <arg name="myprefix" default="$(arg myprefix)" />
+</include>
+
+<machine name="local"  address="localhost" default="true"/>
+<node pkg="rviz" name="rviz" type="rviz" args="-d $(find turtlebot_path_follower)/rviz/path_follower.rviz"/>
+
+</launch>

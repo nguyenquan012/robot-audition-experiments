@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+  <name>turtlebot_move_simple</name>
+  <version>1.0.0</version>
+  <description>move turtlebot forward or backward simply</description>
+  <maintainer email="nguyenquan012@gmail.com">quan</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+ <!-- Package Dependencies -->
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>tf</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend> 
+  <run_depend>tf</run_depend>
+
+
+  <export>
+
+  </export>
+</package>

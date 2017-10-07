@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package>
+  <name>hark_turtlebot_fdnetworks</name>
+  <version>0.0.0</version>
+  <description>The hark_turtlebot_fdnetworks package</description>
+
+  <maintainer email="nguyenquan012@gmail.com">NGUYEN Van Quan</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+ </package>
