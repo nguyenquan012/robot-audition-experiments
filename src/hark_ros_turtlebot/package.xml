@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>hark_ros_turtlebot</name>
+  <version>1.0.0</version>
+  <description>The hark_ros_turtlebot metapackage for sound source localization of turtlebot</description>
+  <maintainer email="nguyenquan012@gmail.com">NGUYEN Van Quan</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <run_depend>hark_turtlebot_fdnetworks</run_depend>
+  <run_depend>hark_turtlebot_follower</run_depend>
+  <run_depend>prepath_follow</run_depend>
+  <run_depend>turtlebot_move_simple</run_depend>
+
+  <export>
+     <metapackage/>
+  </export>
+</package>
